@@ -1,0 +1,28 @@
+component_type: Agent
+id: 00000000-0000-0000-0000-000000000031
+name: bound-provider-agent
+description: Carries a bound real provider and embedded API key.
+metadata: {}
+inputs: []
+outputs: []
+llm_config:
+  component_type: LlmConfig
+  id: 00000000-0000-0000-0000-000000000032
+  name: real-provider
+  description: null
+  metadata: {}
+  model_id: gpt-real-model
+  provider: openai
+  api_provider: null
+  api_type: null
+  url: null
+  api_key:
+    $component_ref: 00000000-0000-0000-0000-000000000032.api_key
+  default_generation_parameters: null
+  retry_policy: null
+system_prompt: x
+tools: []
+toolboxes: []
+human_in_the_loop: true
+transforms: []
+agentspec_version: 26.1.2

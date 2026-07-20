@@ -1,0 +1,8 @@
+{
+  "sourceRepository": "ByteDeskAI/bytedesk-agent-delivery",
+  "sourceCommit": "efbc848a2dd2a515b722e5128895d8edbfc9d849",
+  "bundleVersion": "1.0.0",
+  "bundleDigest": "sha256:4a499f507ddeb01b33002cc5427f1aa4fd64197d45a36089526772e6a51b8135",
+  "manifestDigest": "sha256:3abbfa759cdf0157edcdeba45686f8d89f519033cbee0cb89af87a87f5f1d192",
+  "note": "Compatibility declaration only, not a signature verification: no signed agent-delivery-contracts-v1 release exists yet (see that repository's docs/planning/tasks/contract-release-signer-tool.md). This pins the exact reviewed source commit and the bundle digest reproducibly built from it (make bundle-contracts), so this repository's declared schema/port targets (agent-source, skill-package, catalog-index, contract-bundle at contracts/schemas/v1/ in the pinned commit) are an exact, checkable reference rather than an unpinned 'current main'. Bump this file whenever the target commit changes; verified by scripts/verify_bundle_pin.py."
+}

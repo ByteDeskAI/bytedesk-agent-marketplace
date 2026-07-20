@@ -2,7 +2,11 @@
 name = "bytedesk-agent-marketplace-tools"
 version = "0.1.0"
 requires-python = "==3.13.14"
-dependencies = []
+dependencies = [
+  "pyagentspec==26.1.2",
+  "pyyaml==6.0.2",
+  "rfc8785==0.1.4",
+]
 
 [tool.uv]
 package = false
