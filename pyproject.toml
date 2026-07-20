@@ -1,0 +1,12 @@
+[project]
+name = "bytedesk-agent-marketplace-tools"
+version = "0.1.0"
+requires-python = "==3.13.14"
+dependencies = []
+
+[tool.uv]
+package = false
+required-version = "==0.11.21"
+
+[dependency-groups]
+dev = ["pytest==8.4.1"]
