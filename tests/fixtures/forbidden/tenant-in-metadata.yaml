@@ -1,0 +1,28 @@
+component_type: Agent
+id: 00000000-0000-0000-0000-000000000041
+name: tenant-smuggling-agent
+description: Carries a tenant identifier in free-form metadata.
+metadata:
+  tenant_id: acme-corp
+inputs: []
+outputs: []
+llm_config:
+  component_type: LlmConfig
+  id: 00000000-0000-0000-0000-000000000042
+  name: default-model
+  description: null
+  metadata: {}
+  model_id: default
+  provider: null
+  api_provider: null
+  api_type: null
+  url: null
+  api_key: null
+  default_generation_parameters: null
+  retry_policy: null
+system_prompt: x
+tools: []
+toolboxes: []
+human_in_the_loop: true
+transforms: []
+agentspec_version: 26.1.2

@@ -1,0 +1,47 @@
+component_type: Agent
+id: 00000000-0000-0000-0000-000000000001
+name: forbidden-agent
+description: Carries a forbidden MCP tool grant.
+metadata: {}
+inputs: []
+outputs: []
+llm_config:
+  component_type: LlmConfig
+  id: 00000000-0000-0000-0000-000000000002
+  name: default-model
+  description: null
+  metadata: {}
+  model_id: default
+  provider: null
+  api_provider: null
+  api_type: null
+  url: null
+  api_key: null
+  default_generation_parameters: null
+  retry_policy: null
+system_prompt: x
+tools:
+- component_type: MCPTool
+  id: 00000000-0000-0000-0000-000000000011
+  name: forbidden-mcp-tool
+  description: null
+  metadata: {}
+  inputs: []
+  outputs: []
+  requires_confirmation: false
+  client_transport:
+    component_type: StdioTransport
+    id: 00000000-0000-0000-0000-000000000010
+    name: local-mcp
+    description: null
+    metadata: {}
+    session_parameters:
+      read_timeout_seconds: 60.0
+    command: mcp-server
+    args: []
+    env: null
+    cwd: null
+toolboxes: []
+human_in_the_loop: true
+transforms: []
+agentspec_version: 26.1.2

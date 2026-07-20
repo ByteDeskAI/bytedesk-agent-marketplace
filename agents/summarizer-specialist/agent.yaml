@@ -1,0 +1,46 @@
+component_type: SpecializedAgent
+id: 00000000-0000-0000-0000-000000000020
+name: summarizer-specialist
+description: A SpecializedAgent example.
+metadata: {}
+inputs: []
+outputs: []
+agent:
+  component_type: Agent
+  id: 00000000-0000-0000-0000-000000000021
+  name: base-for-specialized
+  description: Base agent wrapped by the specialized example.
+  metadata: {}
+  inputs: []
+  outputs: []
+  llm_config:
+    component_type: LlmConfig
+    id: 00000000-0000-0000-0000-000000000022
+    name: default-model
+    description: null
+    metadata: {}
+    model_id: default
+    provider: null
+    api_provider: null
+    api_type: null
+    url: null
+    api_key: null
+    default_generation_parameters: null
+    retry_policy: null
+  system_prompt: You specialize in summarizing text.
+  tools: []
+  toolboxes: []
+  human_in_the_loop: true
+  transforms: []
+agent_specialization_parameters:
+  component_type: AgentSpecializationParameters
+  id: 00000000-0000-0000-0000-000000000023
+  name: summarizer-parameters
+  description: null
+  metadata: {}
+  inputs: []
+  outputs: []
+  additional_instructions: Focus on concise, three-sentence summaries.
+  additional_tools: null
+  human_in_the_loop: null
+agentspec_version: 26.1.2

@@ -1,0 +1,27 @@
+component_type: Agent
+id: 00000000-0000-0000-0000-000000000001
+name: hello-agent
+description: Minimal portable example agent.
+metadata: {}
+inputs: []
+outputs: []
+llm_config:
+  component_type: LlmConfig
+  id: 00000000-0000-0000-0000-000000000002
+  name: default-model
+  description: null
+  metadata: {}
+  model_id: default
+  provider: null
+  api_provider: null
+  api_type: null
+  url: null
+  api_key: null
+  default_generation_parameters: null
+  retry_policy: null
+system_prompt: You are a helpful assistant.
+tools: []
+toolboxes: []
+human_in_the_loop: true
+transforms: []
+agentspec_version: 26.1.2

@@ -32,14 +32,20 @@ repository only forbids *authority*, not function.
 
 ## Status
 
-Bootstrap in progress (AD-02). Current state:
+AD-02 complete. Current state:
 
 - [x] Repository scaffolding, directory contract, CI shell.
-- [ ] Pinned signed contract-bundle resolution (`contracts/`).
-- [ ] Official Agent Spec 26.1.2 validation + public-marketplace policy
-      rejection.
-- [ ] Restricted YAML → JSON → RFC 8785 canonicalization pipeline.
-- [ ] First `Agent` / `SpecializedAgent` examples.
+- [x] Contract-bundle compatibility pin (`contracts/bundle-pin.json`) — a
+      declared source-commit/digest target, not yet a signed-release
+      verification (no signed release exists upstream yet).
+- [x] Official Agent Spec 26.1.2 validation + public-marketplace policy
+      rejection (`scripts/validate_agents.py`, `scripts/policy.py`).
+- [x] Restricted YAML → JSON → RFC 8785 canonicalization pipeline
+      (`scripts/canonical.py`).
+- [x] First `Agent` / `SpecializedAgent` examples (`agents/hello-agent`,
+      `agents/summarizer-specialist`).
+- [x] Non-authoritative OASF discovery projection
+      (`scripts/generate_oasf_projection.py`).
 
 ## Layout
 
