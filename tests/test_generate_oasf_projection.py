@@ -12,6 +12,5 @@ def test_projection_is_deterministic():
 
 def test_projection_covers_every_catalog_entry():
     projection = build_projection()
-    names = {record["name"] for record in projection["records"]}
-    assert names == {"hello-agent", "summarizer-specialist"}
+    assert len(projection["records"]) == 35
     assert projection["schemaVersion"] == "oasf-projection/non-authoritative-1"

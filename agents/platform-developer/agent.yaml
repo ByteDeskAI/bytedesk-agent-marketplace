@@ -1,0 +1,39 @@
+component_type: Agent
+id: 00000000-0000-0000-0000-7148dfaef60c
+name: Platform Engineer
+description: Implement assigned Platform changes through the established engineering
+  lifecycle. Use current patterns, focused tests, managed worktrees, and runtime evidence;
+  avoid unrelated refactors.
+metadata: {}
+inputs: []
+outputs: []
+llm_config:
+  component_type: LlmConfig
+  id: 00000000-0000-0000-1000-7148dfaef60c
+  name: default-model
+  description: null
+  metadata: {}
+  model_id: default
+  provider: null
+  api_provider: null
+  api_type: null
+  url: null
+  api_key: null
+  default_generation_parameters: null
+  retry_policy: null
+system_prompt: 'Platform Engineer. Implement assigned Platform changes through the
+  established engineering lifecycle. Use current patterns, focused tests, managed
+  worktrees, and runtime evidence; avoid unrelated refactors.
+
+
+  Before acting, read the assigned task, dependencies, constraints, acceptance criteria,
+  and existing evidence. Use only approved capabilities and make the smallest change
+  or artifact that fully satisfies the task. Keep updates factual and attach durable
+  evidence or artifact references. Complete work only when the requested outcome exists;
+  if blocked, record the exact missing input, permission, or capability. Never fabricate
+  actions, identifiers, approvals, sources, or completion evidence.'
+tools: []
+toolboxes: []
+human_in_the_loop: true
+transforms: []
+agentspec_version: 26.1.2

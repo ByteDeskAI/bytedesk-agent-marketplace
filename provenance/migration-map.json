@@ -1,0 +1,215 @@
+{
+  "entries": [
+    {
+      "marketplacePackageId": "backend-development-lead",
+      "selectable": true,
+      "sourcePackageId": "backend-development-lead",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "brand-and-creative-director",
+      "selectable": true,
+      "sourcePackageId": "brand-and-creative-director",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "bytedesk-platform-developer",
+      "selectable": true,
+      "sourcePackageId": "bytedesk-platform-developer",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "chief-of-staff",
+      "selectable": true,
+      "sourcePackageId": "chief-of-staff",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "client-research-lead",
+      "selectable": true,
+      "sourcePackageId": "client-research-lead",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "content-marketing-lead",
+      "selectable": true,
+      "sourcePackageId": "content-marketing-lead",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "customer-success-and-support-lead",
+      "selectable": true,
+      "sourcePackageId": "customer-success-and-support-lead",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "delivery-manager",
+      "selectable": true,
+      "sourcePackageId": "delivery-manager",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "devex-and-docs-lead",
+      "selectable": true,
+      "sourcePackageId": "devex-and-docs-lead",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "devprojects-support-resolver",
+      "selectable": true,
+      "sourcePackageId": "devprojects-support-resolver",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "engineering-scout",
+      "selectable": true,
+      "sourcePackageId": "engineering-scout",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "goal-commander",
+      "selectable": true,
+      "sourcePackageId": "goal-commander",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "growth-scout",
+      "selectable": true,
+      "sourcePackageId": "growth-scout",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "hr-org-designer",
+      "selectable": true,
+      "sourcePackageId": "hr-org-designer",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "icp-scoring-analyst",
+      "selectable": true,
+      "sourcePackageId": "icp-scoring-analyst",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "kade-vector",
+      "selectable": true,
+      "sourcePackageId": "kade-vector",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "lifecycle-email-marketing-lead",
+      "selectable": true,
+      "sourcePackageId": "lifecycle-email-marketing-lead",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "marketing-director",
+      "selectable": true,
+      "sourcePackageId": "marketing-director",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "office-orchestrator",
+      "selectable": false,
+      "sourcePackageId": "office-orchestrator",
+      "systemPackage": true
+    },
+    {
+      "marketplacePackageId": "ops-scout",
+      "selectable": true,
+      "sourcePackageId": "ops-scout",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "outreach-intelligence-specialist",
+      "selectable": true,
+      "sourcePackageId": "outreach-intelligence-specialist",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "platform-architect",
+      "selectable": true,
+      "sourcePackageId": "platform-architect",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "platform-developer",
+      "selectable": true,
+      "sourcePackageId": "platform-developer",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "product-ops-director",
+      "selectable": true,
+      "sourcePackageId": "product-ops-director",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "product-scout",
+      "selectable": true,
+      "sourcePackageId": "product-scout",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "prospect-source-mapper",
+      "selectable": true,
+      "sourcePackageId": "prospect-source-mapper",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "quality-and-release-lead",
+      "selectable": true,
+      "sourcePackageId": "quality-and-release-lead",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "revops-and-kpi-manager",
+      "selectable": true,
+      "sourcePackageId": "revops-and-kpi-manager",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "sales-enablement-lead",
+      "selectable": true,
+      "sourcePackageId": "sales-enablement-lead",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "sales-scout",
+      "selectable": true,
+      "sourcePackageId": "sales-scout",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "seo-geo-growth-lead",
+      "selectable": true,
+      "sourcePackageId": "seo-geo-growth-lead",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "support-scout",
+      "selectable": true,
+      "sourcePackageId": "support-scout",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "video-content-producer",
+      "selectable": true,
+      "sourcePackageId": "video-content-producer",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "web-design-director",
+      "selectable": true,
+      "sourcePackageId": "web-design-director",
+      "systemPackage": false
+    },
+    {
+      "marketplacePackageId": "web-development-lead",
+      "selectable": true,
+      "sourcePackageId": "web-development-lead",
+      "systemPackage": false
+    }
+  ],
+  "profile": "bytedesk.hermes-profile-migration-map/1"
+}

@@ -1,0 +1,203 @@
+{
+  "commit": "69729951ace917f6e32ed6690d8c1da93e23cbe3",
+  "compatibilityEvidenceOnly": true,
+  "contract": "bytedesk.external-input-lock/1",
+  "lockId": "hermes-native-profiles-2026-07-20",
+  "paths": [
+    {
+      "digest": "sha256:af71c601a46534ee3dbe1ade8a6782377e039036700fae545847232da9e4f69f",
+      "path": "backend-development-lead/SOUL.md",
+      "size": 1376
+    },
+    {
+      "digest": "sha256:9a7ec1270d8fcf191b2c836cfc8d909f3cafb0538b05bc6b641f1b8a3e206bb8",
+      "path": "brand-and-creative-director/SOUL.md",
+      "size": 1368
+    },
+    {
+      "digest": "sha256:4344d8fbd86e1a5b8d98ba81700761915ba33675220300205da6d47bbceeff4f",
+      "path": "bytedesk-platform-developer/SOUL.md",
+      "size": 1405
+    },
+    {
+      "digest": "sha256:d0c461c53dd491f6e75ccbdc51eb2b3bd847f0d0c8a42f46f0ea880490b448ef",
+      "path": "chief-of-staff/SOUL.md",
+      "size": 1544
+    },
+    {
+      "digest": "sha256:f722adffb5dacf9966d8f627dfcacc002e60ad8bad12ac985344113b44a9e2f9",
+      "path": "client-research-lead/SOUL.md",
+      "size": 1381
+    },
+    {
+      "digest": "sha256:5eeb158dc97c17d5e0938294de0d2260812f749e1774b6d12b3ff09713b9c95a",
+      "path": "content-marketing-lead/SOUL.md",
+      "size": 1367
+    },
+    {
+      "digest": "sha256:fd09618e307e1d359e281a6f32b02b25d2f53b8d9539917ff8ecc2647da78395",
+      "path": "customer-success-and-support-lead/SOUL.md",
+      "size": 1414
+    },
+    {
+      "digest": "sha256:9042ac1d6ae5f9c7da589c45bfb77fa31bdfe1cffc44d2ff22ac034cad9b7f6c",
+      "path": "delivery-manager/SOUL.md",
+      "size": 1365
+    },
+    {
+      "digest": "sha256:c267a72e6377ae777e7015dbdf0a8faca1c33e2d913697ac5a76ca2aea3f7bc5",
+      "path": "devex-and-docs-lead/SOUL.md",
+      "size": 1380
+    },
+    {
+      "digest": "sha256:7c226c481b20e55501fec2d462687ede75dce1839904c08c4e26af2dd775e2ed",
+      "path": "devprojects-support-resolver/SOUL.md",
+      "size": 1412
+    },
+    {
+      "digest": "sha256:9d0f25242ff3a6a688bcbfe6d01e264da93a1f9f22b92ea4bc53e7ac825690d8",
+      "path": "engineering-scout/SOUL.md",
+      "size": 1394
+    },
+    {
+      "digest": "sha256:b4a0cc315d14487c3b632abf68a17c8acaec574d47a093fbbe3c768e9da8cef5",
+      "path": "goal-commander/SOUL.md",
+      "size": 1387
+    },
+    {
+      "digest": "sha256:cba0497fef35b2a4c47e4c9588ebbf362d2cefcd8b15445bfe50b993a91c6cf4",
+      "path": "growth-scout/SOUL.md",
+      "size": 1363
+    },
+    {
+      "digest": "sha256:1f8fe6f4106b4f49044f623a933fcb42f68a17d4cd9b1c1c25aab9731ca4ceb9",
+      "path": "hr-org-designer/SOUL.md",
+      "size": 1407
+    },
+    {
+      "digest": "sha256:93d2619b409fabc46b2f4b417c002b390d62706aa28fac1b921d2a124af9db31",
+      "path": "icp-scoring-analyst/SOUL.md",
+      "size": 1382
+    },
+    {
+      "digest": "sha256:3cbe5711de09d35b735b205ed4504b4ffe80f447f2260d283e47e2f8cb763645",
+      "path": "kade-vector/SOUL.md",
+      "size": 1379
+    },
+    {
+      "digest": "sha256:4e2aacd2336dc8e447ea7cf5c5337775f593331a24b70471d2d39df500795d79",
+      "path": "lifecycle-email-marketing-lead/SOUL.md",
+      "size": 1379
+    },
+    {
+      "digest": "sha256:e3d9b4dfc2a61a7d78bc21e6b0919b8b85ad12468a8ab013ec9fda4caa5f0aab",
+      "path": "marketing-director/SOUL.md",
+      "size": 1386
+    },
+    {
+      "digest": "sha256:c8195644eabb9390b2e7e46b94b9bb04ac152789091aacd13c5183155ecbc18f",
+      "path": "office-orchestrator/SOUL.md",
+      "size": 1399
+    },
+    {
+      "digest": "sha256:cb689b45cfbe4ae084bdbee5e73f287a791f4d2a7f2d20251ae7edbaa7361c2b",
+      "path": "ops-scout/SOUL.md",
+      "size": 1379
+    },
+    {
+      "digest": "sha256:bc61d153473b97000825967c4f01e643a4842f1f22a48d8afe8144934142b102",
+      "path": "outreach-intelligence-specialist/SOUL.md",
+      "size": 1427
+    },
+    {
+      "digest": "sha256:d5e78a1ad154b0d4cb8cff784301d3a1a79589b2a218606c0ff6dd478e8620d2",
+      "path": "platform-architect/SOUL.md",
+      "size": 1448
+    },
+    {
+      "digest": "sha256:9139996b44f1392e46f22a7b5d3b0a5909fbe15cc33a66974bd06227e63f3595",
+      "path": "platform-developer/SOUL.md",
+      "size": 1387
+    },
+    {
+      "digest": "sha256:fb4d059ce85d25c39d03a97a72dfd1af8e320c03136dd259a0d8a190301f6e18",
+      "path": "product-ops-director/SOUL.md",
+      "size": 1393
+    },
+    {
+      "digest": "sha256:66f7c21750e92a6f7a414e4bc9ade3306545a63b5d2e82411560d20481b43241",
+      "path": "product-scout/SOUL.md",
+      "size": 1370
+    },
+    {
+      "digest": "sha256:dc05f9d07075cb6d1995c8dce0444003a1c1fc7b3fbf1ab417053e4ccc02c9f0",
+      "path": "prospect-source-mapper/SOUL.md",
+      "size": 1379
+    },
+    {
+      "digest": "sha256:c87157d21533bf0b997757c26b20a2474a9e905538d69fd1ff740bc03e92fe75",
+      "path": "quality-and-release-lead/SOUL.md",
+      "size": 1400
+    },
+    {
+      "digest": "sha256:691da86302b8fd3128ba6a0b72b4e8b21e7bc3c7ca73ab27f09af4814cf6b2ff",
+      "path": "revops-and-kpi-manager/SOUL.md",
+      "size": 1385
+    },
+    {
+      "digest": "sha256:84d686fac79d29441a9f5d25b3f64f1d559f3ee57ab1811b9f19a338841f0353",
+      "path": "sales-enablement-lead/SOUL.md",
+      "size": 1344
+    },
+    {
+      "digest": "sha256:29a73952f1ce1b6ed8021828c2a439797c4a943bf1a40c197065cf5430a74aa8",
+      "path": "sales-scout/SOUL.md",
+      "size": 1350
+    },
+    {
+      "digest": "sha256:ba32c31a077da132b160dc77d7c0f3202f30ae92b82613eba6a01fc4579ef657",
+      "path": "seo-geo-growth-lead/SOUL.md",
+      "size": 1394
+    },
+    {
+      "digest": "sha256:ae911dea629d442ce0bf7fd4e952c538c8b63103da62b9437b78b9b27717663d",
+      "path": "support-scout/SOUL.md",
+      "size": 1390
+    },
+    {
+      "digest": "sha256:4cf5195aaaf48d92d440790501957c40c4cb48448a78b94f9239782c31b11434",
+      "path": "video-content-producer/SOUL.md",
+      "size": 1355
+    },
+    {
+      "digest": "sha256:8c7fa6c011b7597ab1ddd7413bf4fc9c34d09392ef31c6ec2bad76093decec94",
+      "path": "web-design-director/SOUL.md",
+      "size": 1393
+    },
+    {
+      "digest": "sha256:f8afcf6d6cdbf561817c3a906d8bee759a1b36451a4f6d7a2c83ef0bb8851db7",
+      "path": "web-development-lead/SOUL.md",
+      "size": 1380
+    }
+  ],
+  "repository": "https://github.com/ByteDeskAI/bytedesk-platform",
+  "retrievedAt": "2026-07-21T02:00:00Z",
+  "role": "migration_input",
+  "schema": {
+    "digest": "sha256:0b8c314dfc6f25f150b92db704cd80358f43c8109bffc2a64d3f61ff67881faf",
+    "id": "https://schemas.bytedesk.ai/agent-delivery/v1/external-input-lock/1.0.0"
+  },
+  "treeDigest": "sha256:9d91870655c41d6658710a09cbe5059b0183f03ff2f037e4a621e00d8651be8d",
+  "validators": [
+    {
+      "digest": "sha256:46e682fc7a26ee5093860a8d624b03e3f7e6638abed83f4676cfab8380422ae4",
+      "mediaType": "application/vnd.bytedesk.agent-marketplace.validator-script.v1+python",
+      "repository": "registry.example.local/bytedesk-agent-marketplace/validators/migrate-hermes-profiles",
+      "size": 7895,
+      "trustPolicy": {
+        "digest": "sha256:b6a3954294cc4a0e6ade5e52646f3be777df8d695f97cdebf653234438d1577e",
+        "id": "public-source-v1"
+      }
+    }
+  ]
+}

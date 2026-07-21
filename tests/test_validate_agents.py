@@ -11,9 +11,19 @@ REPOSITORY_ROOT = Path(__file__).resolve().parent.parent
 
 def test_build_index_validates_the_real_catalog():
     index = build_index()
-    package_ids = {entry["packageId"] for entry in index["entries"]}
-    assert package_ids == {"hello-agent", "summarizer-specialist"}
-    assert {entry["sourceKind"] for entry in index["entries"]} == {"agent", "specialized-agent"}
+    assert len(index["entries"]) == 35
+    package_ids = [entry["packageId"] for entry in index["entries"]]
+    assert len(package_ids) == len(set(package_ids)), "packageIds must be unique"
+
+
+def test_catalog_has_exactly_34_selectable_and_1_system_package():
+    index = build_index()
+    selectable = [e for e in index["entries"] if e["selectable"]]
+    system = [e for e in index["entries"] if e["systemPackage"]]
+    assert len(selectable) == 34
+    assert len(system) == 1
+    assert system[0]["packageId"] == "office-orchestrator"
+    assert not any(e["selectable"] and e["systemPackage"] for e in index["entries"])
 
 
 def test_build_index_is_deterministic_across_runs():

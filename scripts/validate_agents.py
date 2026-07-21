@@ -57,11 +57,13 @@ def _load_package_metadata(package_dir: Path, relative_path: str) -> dict:
         metadata = json.loads(metadata_path.read_text())
     except json.JSONDecodeError as error:
         raise ValidationError(f"{relative_path}: package.json is not valid JSON: {error}") from error
-    if not isinstance(metadata, dict) or set(metadata) != {"version", "channel", "deprecated"}:
+    required_keys = {"version", "channel", "deprecated", "selectable", "systemPackage"}
+    if not isinstance(metadata, dict) or set(metadata) != required_keys:
         raise ValidationError(
-            f"{relative_path}: package.json must have exactly version, channel, deprecated"
+            f"{relative_path}: package.json must have exactly {sorted(required_keys)}"
         )
     version, channel, deprecated = metadata["version"], metadata["channel"], metadata["deprecated"]
+    selectable, system_package = metadata["selectable"], metadata["systemPackage"]
     if not isinstance(version, str) or not _SEMVER_PATTERN.fullmatch(version):
         raise ValidationError(f"{relative_path}: package.json version is not semver (X.Y.Z)")
     if channel not in _CHANNELS:
@@ -70,7 +72,17 @@ def _load_package_metadata(package_dir: Path, relative_path: str) -> dict:
         raise ValidationError(f"{relative_path}: package.json deprecated must be a boolean")
     if deprecated and channel != "deprecated":
         raise ValidationError(f"{relative_path}: deprecated=true requires channel 'deprecated'")
-    return {"version": version, "channel": channel, "deprecated": deprecated}
+    if not isinstance(selectable, bool) or not isinstance(system_package, bool):
+        raise ValidationError(f"{relative_path}: package.json selectable/systemPackage must be booleans")
+    if system_package and selectable:
+        raise ValidationError(f"{relative_path}: a system package cannot be selectable")
+    return {
+        "version": version,
+        "channel": channel,
+        "deprecated": deprecated,
+        "selectable": selectable,
+        "systemPackage": system_package,
+    }
 
 
 def _load_official(document: dict, text: str, relative_path: str) -> Component:

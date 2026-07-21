@@ -42,8 +42,8 @@ AD-02 complete. Current state:
       rejection (`scripts/validate_agents.py`, `scripts/policy.py`).
 - [x] Restricted YAML → JSON → RFC 8785 canonicalization pipeline
       (`scripts/canonical.py`).
-- [x] First `Agent` / `SpecializedAgent` examples (`agents/hello-agent`,
-      `agents/summarizer-specialist`).
+- [x] First `Agent` / `SpecializedAgent` examples (`examples/hello-agent`,
+      `examples/summarizer-specialist`).
 - [x] Non-authoritative OASF discovery projection
       (`scripts/generate_oasf_projection.py`).
 

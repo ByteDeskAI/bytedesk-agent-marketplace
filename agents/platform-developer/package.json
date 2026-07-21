@@ -1,0 +1,7 @@
+{
+  "channel": "stable",
+  "deprecated": false,
+  "selectable": true,
+  "systemPackage": false,
+  "version": "1.0.0"
+}

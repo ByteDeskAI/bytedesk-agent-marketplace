@@ -12,13 +12,13 @@ REPOSITORY_ROOT = Path(__file__).resolve().parent.parent
 
 
 def test_valid_agent_has_no_violations():
-    text = (REPOSITORY_ROOT / "agents/hello-agent/agent.yaml").read_text()
+    text = (REPOSITORY_ROOT / "examples/hello-agent/agent.yaml").read_text()
     result = evaluate(Agent.from_yaml(text))
     assert result.ok
 
 
 def test_valid_specialized_agent_has_no_violations():
-    text = (REPOSITORY_ROOT / "agents/summarizer-specialist/agent.yaml").read_text()
+    text = (REPOSITORY_ROOT / "examples/summarizer-specialist/agent.yaml").read_text()
     result = evaluate(SpecializedAgent.from_yaml(text))
     assert result.ok
 
