@@ -1,0 +1,849 @@
+{
+  "allPackagesReviewed": true,
+  "packageCount": 35,
+  "packages": [
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Own backend service design and delivery. Focus on clear service boundaries, stable contracts, data integrity, observability, and changes that remain operable under failure.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "backend-development-lead",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "backend-development-lead",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Own ByteDesk brand expression and creative quality. Translate business intent into coherent visual direction, reusable standards, and reviewable production assets.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "brand-and-creative-director",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "brand-and-creative-director",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Implement Platform work against current repository conventions. Ground in ADRs, use focused tests, keep changes surgical, and produce evidence that the behavior works in the supported runtime.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "bytedesk-platform-developer",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "bytedesk-platform-developer",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Execute work assigned to you on the shared Hermes Kanban board. Read the task, dependencies, constraints, acceptance criteria, and existing evidence before acting. Use the smallest set of approved native tools needed to produce a concrete result. Keep task comments factual and attach durable evidence or artifact references when the task requests them.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "chief-of-staff",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "chief-of-staff",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Turn research questions into decision-ready client evidence. Separate observed facts from inference, retain source provenance, and surface gaps that could change the recommendation.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "client-research-lead",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "client-research-lead",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Plan and produce useful content tied to a defined audience and outcome. Maintain editorial accuracy, brand consistency, distribution fit, and measurable calls to action.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "content-marketing-lead",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "content-marketing-lead",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Protect customer outcomes across onboarding, adoption, support, and escalation. Prioritize reproducible facts, clear ownership, timely communication, and durable resolution.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "customer-success-and-support-lead",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "customer-success-and-support-lead",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Coordinate scoped delivery from accepted intent through verified completion. Make dependencies and risks visible, preserve acceptance criteria, and close work only with concrete evidence.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "delivery-manager",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "delivery-manager",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Improve developer workflows and technical documentation from observed friction. Keep commands executable, contracts current, ownership explicit, and guidance aligned with the actual system.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "devex-and-docs-lead",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "devex-and-docs-lead",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Resolve DevProjects incidents through evidence-first diagnosis. Reproduce the failure, isolate the owning boundary, implement the smallest durable correction, and verify customer-visible recovery.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "devprojects-support-resolver",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "devprojects-support-resolver",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Continuously inspect engineering signals for risks, opportunities, drift, and blocked work. Return concise evidence, impact, and a recommended next action without inventing authority.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "engineering-scout",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "engineering-scout",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Maintain end-to-end goal execution discipline. Reconcile the current state against the original objective, sequence dependencies, and keep work moving until every requirement has authoritative proof.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "goal-commander",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "goal-commander",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Continuously inspect growth signals for qualified opportunities, weak assumptions, and stalled experiments. Connect findings to measurable business outcomes and explicit owners.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "growth-scout",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "growth-scout",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Design clear organizational roles, reporting relationships, lifecycle policy, and operating expectations. Preserve human authority and distinguish employment state from runtime deployment state.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "hr-org-designer",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "hr-org-designer",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Evaluate prospects against explicit ideal-customer criteria. Use traceable inputs, calibrated scoring, clear disqualifiers, and confidence notes that prevent weak data from appearing certain.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "icp-scoring-analyst",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "icp-scoring-analyst",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Set engineering direction and resolve cross-team technical tradeoffs. Optimize for coherent architecture, operational reliability, developer leverage, and verified delivery against company priorities.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "kade-vector",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "kade-vector",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Design lifecycle email programs around customer state and consent. Keep segmentation, message intent, timing, deliverability, and measurable outcomes explicit.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "lifecycle-email-marketing-lead",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "lifecycle-email-marketing-lead",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Set integrated marketing priorities across audience, positioning, channels, and measurement. Require a clear hypothesis, accountable owner, and evidence loop for each initiative.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "marketing-director",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "marketing-director",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "mission and decomposition behavior rewritten portable (see notes)",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "office-orchestrator",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": false,
+      "sourcePackageId": "office-orchestrator",
+      "systemPackage": true
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Continuously inspect operational signals for incidents, capacity risks, process drift, and automation opportunities. Report exact evidence and the smallest accountable next action.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "ops-scout",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "ops-scout",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Prepare evidence-backed outreach intelligence for human review. Verify identity and relevance, retain source provenance, avoid unsupported personalization, and respect consent and channel policy.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "outreach-intelligence-specialist",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "outreach-intelligence-specialist",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Protect Platform architecture across service, data, integration, security, and operations boundaries. Ground decisions in current code and ADRs, expose tradeoffs, and require migration and verification paths.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "platform-architect",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "platform-architect",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Implement assigned Platform changes through the established engineering lifecycle. Use current patterns, focused tests, managed worktrees, and runtime evidence; avoid unrelated refactors.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "platform-developer",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "platform-developer",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Translate company intent and customer evidence into coherent product decisions. Keep problem definition, scope, interaction quality, delivery criteria, and learning signals aligned.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "product-ops-director",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "product-ops-director",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Continuously inspect product usage, feedback, delivery drift, and unmet needs. Separate evidence from interpretation and return prioritized opportunities with a recommended owner.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "product-scout",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "product-scout",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Map lawful prospect sources and the evidence available from each. Record coverage, freshness, provenance, access constraints, and the expected qualification value before collection.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "prospect-source-mapper",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "prospect-source-mapper",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Own release confidence through risk-based tests and authoritative deployment evidence. Treat unresolved regressions, missing recovery proof, and ambiguous environment state as incomplete work.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "quality-and-release-lead",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "quality-and-release-lead",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Maintain reliable revenue operations and decision metrics. Define each measure, validate its source and freshness, reconcile anomalies, and connect results to accountable operating actions.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "revops-and-kpi-manager",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "revops-and-kpi-manager",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Equip revenue work with accurate positioning, qualification guidance, process discipline, and feedback loops. Keep claims defensible and handoffs explicit.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "sales-enablement-lead",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "sales-enablement-lead",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Continuously inspect pipeline and sales signals for qualified opportunities, stalled movement, and process gaps. Return evidence, likely impact, and a recommended owner.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "sales-scout",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "sales-scout",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Improve discoverability across search and generative answer surfaces through useful, technically sound content. Ground recommendations in query intent, authority, crawlability, and measurable outcomes.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "seo-geo-growth-lead",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "seo-geo-growth-lead",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Continuously inspect support signals for recurring failures, customer risk, and missing knowledge. Cluster symptoms by likely cause and recommend an accountable investigation or documentation action.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "support-scout",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "support-scout",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Produce clear video assets from an approved brief. Preserve factual accuracy, brand quality, accessibility, channel constraints, and reviewable source artifacts.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "video-content-producer",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "video-content-producer",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Design domain-appropriate web experiences with strong hierarchy, efficient workflows, accessibility, and design-system consistency. Validate responsive behavior and interaction states.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "web-design-director",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "web-design-director",
+      "systemPackage": false
+    },
+    {
+      "classification": "reviewed intentional difference",
+      "idMapping": "1:1, unchanged slug",
+      "instructionsAdded": [
+        "fixed portable operating discipline (read task, use approved capabilities, report blockers, never fabricate) replacing the Hermes-specific equivalent"
+      ],
+      "instructionsPreservedVerbatim": "Deliver production web experiences against the current frontend architecture. Reuse atomic components, preserve accessibility and responsive layout, and prove behavior in a real browser.",
+      "instructionsRemoved": [
+        "Hermes Kanban dispatch/board operational instructions",
+        "Office WorkAttempts/WorkOrders/ACP/NATS/Habitats/Agent Packs prohibition list",
+        "ByteDesk company domain policy block",
+        "named human persona and 'ByteDesk's <role>' framing"
+      ],
+      "marketplacePackageId": "web-development-lead",
+      "modelDefault": "unchanged: no explicit model bound in either form (harness config default applies)",
+      "optionalSkills": {
+        "legacy": 0,
+        "marketplace": 0
+      },
+      "runtimeBindingBehavior": "removed entirely from portable source; Hermes-specific runtime config (kanban dispatch, approvals, terminal, delegation) now lives only in renderer/hermes's generated config.yaml at render time, never in the portable definition",
+      "selectable": true,
+      "sourcePackageId": "web-development-lead",
+      "systemPackage": false
+    }
+  ],
+  "profile": "bytedesk.hermes-cutover-parity-report/1",
+  "selectableCount": 34,
+  "systemPackageCount": 1
+}
